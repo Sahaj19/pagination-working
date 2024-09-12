@@ -1,1 +1,1 @@
-# pagination-working
+`Pagination` is a technique used in web development to divide large sets of data into smaller, manageable chunks, or "pages." Instead of displaying all the data at once, which can overwhelm users and slow down performance, pagination allows users to navigate through data in discrete sections, typically with a fixed number of items per page.

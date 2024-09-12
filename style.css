@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flagsSection {
+    margin: 2rem 0;
+}
+
+.flagsSection .flagsDiv {
+    display: grid;
+    grid-template-columns: repeat(4,220px);
+    grid-template-rows: repeat(2,150px);
+    gap: 40px;
+    justify-content: center;
+}
+
+.flagsSection .flagsDiv .singleFlag  {
+    border: 1px solid #000;
+}
+
+.flagsSection .flagsDiv .singleFlag img {
+    width: 100%;
+    height: 100%;
+}
+
+.paginationControlsSection {
+    margin:1rem 0;
+}
+
+.paginationControlsSection .paginationControlsDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.paginationControlsSection .paginationControlsDiv .paginationBtn{
+    color: #fff;
+    background-color: darkred;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paginationControlsSection .paginationControlsDiv .paginationBtn:active{
+    transform: scale(0.95);
+}
